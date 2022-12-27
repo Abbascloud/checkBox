@@ -1,0 +1,12 @@
+
+.item{
+font-size: 30px;
+    & span{
+        color: rgb(229, 138, 153);
+        &:not(:first-child){
+            margin-left: 20px;
+        }
+    }
+}
+
+

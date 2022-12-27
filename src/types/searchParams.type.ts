@@ -3,5 +3,5 @@ export type SearchParams = {
   status: string;
 };
 export type NewParam = {
-  [key: string]: "rick" | "alive";
+  [key: string]: string;
 };

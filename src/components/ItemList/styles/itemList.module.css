@@ -1,0 +1,9 @@
+.itemList {
+  border: 1px solid pink;
+  padding: 50px;
+}
+
+.itemList li:not(:last-child) {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=itemList.module.css.map */

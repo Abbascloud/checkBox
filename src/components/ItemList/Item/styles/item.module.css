@@ -1,0 +1,12 @@
+.item {
+  font-size: 30px;
+}
+
+.item span {
+  color: #e58a99;
+}
+
+.item span:not(:first-child) {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=item.module.css.map */

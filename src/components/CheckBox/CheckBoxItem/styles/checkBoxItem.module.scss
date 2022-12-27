@@ -1,0 +1,35 @@
+
+.checkbox{
+
+display: flex;
+align-items: center;
+
+    &__wrapper{
+        display: flex;
+        height: 50px;
+        width: 50px;
+        border: 1px solid pink;
+        position: relative;
+    }
+
+    &__input{
+        height: 100%; 
+        width: 100%;
+        opacity: 0.2; 
+        cursor: pointer;
+    }
+
+    &__icon{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    &__label{
+        margin-left: 20px;
+    }
+}
+
+

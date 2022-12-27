@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Rickandmorty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Учебный проект в рамках React-интенсива компании Andersen
 
-## Available Scripts
+## Выполнили:
 
-In the project directory, you can run:
+- Молитвин Александр https://github.com/sanicDogg
 
-### `npm start`
+- Мамедов Аббас https://github.com/abbascloud
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Требования к функциональности
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**React**
 
-### `npm test`
+- cоздание костомизированного CheckBox: [CheckBox](https://github.com/sanicDogg/Rickandmorty/tree/main/src/components)
+- Есть четкое разделение на умные и глупые компоненты
+- Есть рендеринг списков: [SearchPage](https://github.com/sanicDogg/Rickandmorty/blob/main/src/pages/SearchPage/SearchPage.jsx), [Cards](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/Cards/Cards.jsx), [Search](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/Search/Search.jsx)
+- Реализована хотя бы одна форма: [FormLoginPassword](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/FormLoginPassword/FormLoginPassword.jsx)
+- Есть применение Контекст API: [themeContext](https://github.com/sanicDogg/Rickandmorty/blob/main/src/app/themeContext.js)
+- Есть применение предохранителя: [ErrorBoundaryComponent](https://github.com/sanicDogg/Rickandmorty/tree/main/src/components/ErrorBoundaryComponent)
+- Есть хотя бы один кастомный хук: [hooks](https://github.com/sanicDogg/Rickandmorty/tree/main/src/hooks)
+- Хотя бы несколько компонентов используют PropTypes: [Card](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/Card/Card.jsx), [SearchResult](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/SearchResult/SearchResult.jsx), [LikeButton](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/LikeButton/LikeButton.jsx)
+- Поиск не должен триггерить много запросов к серверу: реализовано с помощью библиотеки react-debounce-input в компоненте [Search](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/Search/Search.jsx)
+- Есть применение lazy + Suspense: [Card](https://github.com/sanicDogg/Rickandmorty/blob/main/src/components/Card/Card.jsx)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ссылки
 
-### `npm run build`
+- [Rick and Morty API](https://rickandmortyapi.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Доска с тикетами](https://trello.com/b/4vl4n61W/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82)

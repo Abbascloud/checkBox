@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAA;EACT,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;CAMZ;;AARD,AAIQ,SAJC,CAGH,EAAE,AACC,IAAK,CAAA,WAAW,EAAC;EACd,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "itemList.module.scss"
+    ],
+    "names": [],
+    "file": "itemList.module.css"
+}

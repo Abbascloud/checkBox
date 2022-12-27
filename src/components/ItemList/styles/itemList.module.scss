@@ -1,0 +1,12 @@
+
+.itemList{
+border: 1px solid pink;
+padding: 50px;
+    & li{
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
+    }
+}
+
+

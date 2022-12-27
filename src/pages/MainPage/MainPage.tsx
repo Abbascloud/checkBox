@@ -5,11 +5,12 @@ import { BASE_URL } from "../../const/baseURL.const";
 import { itemsDataMapper } from "../../mappers/itemsDataMapper";
 import { IResponse, SearchParams, NewParam } from "../../types";
 import { ItemRenderProps } from "../../components/ItemList/itemList.type";
+import classes from "./styles/mainPage.module.css";
 
 export function MainPage() {
   const [searchParams, setSearchParams] = useState<SearchParams>({
-    name: "rick",
-    status: "alive",
+    name: "",
+    status: "",
   });
 
   function toggleSearchParams(newParam: NewParam): void {
@@ -36,7 +37,7 @@ export function MainPage() {
   }, [searchParams]);
 
   return (
-    <div>
+    <div className={classes.mainPage}>
       <CheckBox toggleSearchParams={toggleSearchParams} />
       <ItemList items={data} />
     </div>
